@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/register/userlogin",
+    "pages/index/index",
+    "pages/register/register",
+    "pages/logs/logs",
+    "pages/my/myinfo",
+    "pages/my/change",
+    "pages/answer/answer_chapter/chapter",
+    "pages/answer/answer_classify/classify",
+    "pages/answer/answer_info/info"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页面",
+        "iconPath": "images/tab_account1.png",
+        "selectedIconPath": "images/tab_account2.png"
+      },
+      {
+        "pagePath": "pages/my/myinfo",
+        "text": "我的",
+        "iconPath": "images/tab_course1.png",
+        "selectedIconPath": "images/tab_course2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
